@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/tools.cli "0.3.3"]
                  [cheshire "5.5.0"]
-                 [org.clojure/data.int-map "0.2.1"]]
+                 [org.clojure/data.int-map "0.2.1"]
+                 [fipp "0.6.2"]]
   :main ^:skip-aot dump-analyzer.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
